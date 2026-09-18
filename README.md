@@ -10,7 +10,7 @@ This is the headless MCP edition of the active Kanban MCP TypeScript implementat
 ## Install
 
 ```sh
-npm install
+npm ci
 npm test
 ```
 
@@ -26,4 +26,4 @@ This is a local process, not a hosted service. Its stdio MCP transport has no au
 
 ## License
 
-The source package declared ISC. This export preserves that declaration and includes ISC text attributed to Natanael Mota; it does not switch the package to MIT.
+ISC, attributed to Natanael Mota. Keep the copyright and permission notice with copies of the software. See [LICENSE](LICENSE).

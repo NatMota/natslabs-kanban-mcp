@@ -3,9 +3,11 @@
 Install dependencies and build from the `natslabs-kanban-mcp` release directory (Node.js 22 or newer):
 
 ```sh
-npm install
+npm ci
 npm run build
 ```
+
+Use Node.js 22 or newer. If your npm installation asks you to approve the native `better-sqlite3` install script, review that dependency and approve only that package, then reinstall. Do not disable script safeguards globally.
 
 Configure your MCP client to launch `dist/mcp/server.js` with this directory as its working directory. Example:
 
