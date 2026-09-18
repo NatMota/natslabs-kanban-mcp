@@ -4,6 +4,20 @@ Built by **Natanael Mota** and used to organise the development of **[Vortex Fil
 
 This is the headless MCP edition of the active Kanban MCP TypeScript implementation. It provides a local MCP server backed by SQLite. The companion web UI is intentionally not included. Projects and tickets are stored only on the machine running the server.
 
+## Sample project
+
+These are real screenshots of the companion interface running **Launchpad**, a fictional AI research-assistant project in a separate, empty database. No private project or customer data is shown.
+
+**Board overview:** tasks grouped into Backlog, In Progress, Review and Done, with estimates and epics.
+
+![Launchpad sample project in the Kanban companion interface, showing ten fictional tickets across four columns](docs/screenshots/sample-board.png)
+
+**Ticket detail:** an example handover task with acceptance criteria and a next action for the following agent session.
+
+![Sample handover ticket with its description, acceptance criteria, estimate and epic](docs/screenshots/sample-ticket.png)
+
+The screenshots show my companion web UI, including its separate co-pilot controls. This repository currently contains the headless MCP server, not that UI or its co-pilot integration.
+
 ## Built while building Vortex Files
 
 I used Kanban MCP to organise the work of building [Vortex Files](https://vortexfiles.qvxx.ai/), my file-sharing and client-portal product. It gave my coding agents a shared record of tasks, progress and what to work on next across sessions.
