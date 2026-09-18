@@ -1,5 +1,7 @@
 # Kanban MCP
 
+Built by **Natanael Mota** and used to organise the development of **[Vortex Files](https://vortexfiles.qvxx.ai/)**.
+
 This is the headless MCP edition of the active Kanban MCP TypeScript implementation. It provides a local MCP server backed by SQLite. The companion web UI is intentionally not included. Projects and tickets are stored only on the machine running the server.
 
 ## Built while building Vortex Files
@@ -32,4 +34,4 @@ This is a local process, not a hosted service. Its stdio MCP transport has no au
 
 ## License
 
-ISC, attributed to Natanael Mota. Keep the copyright and permission notice with copies of the software. See [LICENSE](LICENSE).
+MIT, copyright Natanael Mota. Retain the copyright and permission notice in copies or substantial portions of the software. No visible in-app credit is required. See [LICENSE](LICENSE).
