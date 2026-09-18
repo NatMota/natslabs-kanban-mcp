@@ -2,6 +2,12 @@
 
 This is the headless MCP edition of the active Kanban MCP TypeScript implementation. It provides a local MCP server backed by SQLite. The companion web UI is intentionally not included. Projects and tickets are stored only on the machine running the server.
 
+## Built while building Vortex Files
+
+I used Kanban MCP to organise the work of building [Vortex Files](https://vortexfiles.qvxx.ai/), my file-sharing and client-portal product. It gave my coding agents a shared record of tasks, progress and what to work on next across sessions.
+
+This repository shares the headless MCP server, without my private project data or companion web interface.
+
 ## Requirements
 
 - Node.js 22 or newer and npm
